@@ -235,6 +235,7 @@ public class SwarmDashboard extends ManagementLink implements RootAction {
             s.put("name", svc.getName());
             s.put("state", svc.getState());
             s.put("templateName", svc.getTemplateName());
+            s.put("hostName", svc.getHostName());
             s.put("uptime", svc.getUptime());
             s.put("error", svc.getError());
             s.put("stateClass", svc.getStateClass());

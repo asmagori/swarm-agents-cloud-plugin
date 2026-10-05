@@ -12,6 +12,7 @@ public class ServiceInfo {
     private String name;
     private String state;
     private String templateName;
+    private String hostName;
     private long createdTime;
     private String error;
 
@@ -26,6 +27,9 @@ public class ServiceInfo {
 
     public String getTemplateName() { return templateName; }
     public void setTemplateName(String templateName) { this.templateName = templateName; }
+
+    public String getHostName() { return hostName; }
+    public void setHostName(String hostName) { this.hostName = hostName; }
 
     public long getCreatedTime() { return createdTime; }
     public void setCreatedTime(long createdTime) { this.createdTime = createdTime; }
