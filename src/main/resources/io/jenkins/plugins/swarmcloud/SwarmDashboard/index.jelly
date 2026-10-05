@@ -141,7 +141,7 @@
                                                         <tr>
                                                             <td>${svc.name}</td>
                                                             <td>${svc.templateName}</td>
-                                                            <td>${svc.hostName != null ? svc.hostName : '-'}</td>
+                                                            <td>${svc.hostname != null ? svc.hostname : '-'}</td>
                                                             <td>
                                                                 <span class="swarm-status swarm-status--${svc.stateClass}">${svc.state}</span>
                                                                 <j:if test="${svc.error != null}">

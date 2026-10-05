@@ -213,7 +213,7 @@ public class ClusterMonitor extends AsyncPeriodicWork {
 
                 String nodeId = runningNodeId != null ? runningNodeId : lastNodeId;
                 if (nodeId != null) {
-                    info.setHostName(hostNames.getOrDefault(nodeId, nodeId));
+                    info.setHostname(hostNames.getOrDefault(nodeId, nodeId));
                 }
 
                 // Set service state based on priority and count by state
